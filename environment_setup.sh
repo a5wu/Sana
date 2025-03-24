@@ -15,7 +15,7 @@ else
 fi
 
 # init a raw torch to avoid installation errors.
-# pip install torch
+pip install torch
 
 # update pip to latest version for pyproject.toml setup.
 pip install -U pip

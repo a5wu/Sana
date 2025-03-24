@@ -452,6 +452,12 @@ class SanaMSCM(SanaMS):
 
 
 @MODELS.register_module()
+def SanaMS_100M_P1_D12(**kwargs):
+    # 12 layers, ~100M parameters
+    return SanaMS(depth=12, hidden_size=768, patch_size=1, num_heads=12, **kwargs)
+    # return SanaMS(depth=2, hidden_size=128, patch_size=2, num_heads=2, **kwargs)
+
+@MODELS.register_module()
 def SanaMS_600M_P1_D28(**kwargs):
     return SanaMS(depth=28, hidden_size=1152, patch_size=1, num_heads=16, **kwargs)
 
