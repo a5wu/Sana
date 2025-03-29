@@ -1,0 +1,12 @@
+{
+    "name": "coco-train",
+    "__kind__": "SANA-WebDataset",
+    "wids_version": 1,
+    "shardlist": [
+        {
+            "url": "coco-train-000000.tar",
+            "nsamples": 100,
+            "filesize": 5027840
+        }
+    ]
+}

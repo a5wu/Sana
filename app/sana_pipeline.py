@@ -27,6 +27,7 @@ warnings.filterwarnings("ignore")  # ignore warning
 
 from diffusion import DPMS, FlowEuler
 from diffusion.data.datasets.utils import (
+    ASPECT_RATIO_128_TEST,
     ASPECT_RATIO_512_TEST,
     ASPECT_RATIO_1024_TEST,
     ASPECT_RATIO_2048_TEST,
